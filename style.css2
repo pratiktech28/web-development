@@ -1,0 +1,23 @@
+P{
+    background-color: rgba(58, 189, 150, 0.247);
+    color: rgb(233, 46, 96);
+
+}
+a{
+    color: rgb(3, 27, 71);
+    text-decoration: blue;
+}
+h1{
+    color: light blue;;
+}
+span{
+    background-color: rgb(232, 163, 163);
+    color: rgb(140, 32, 32);
+}
+body{
+    background-color: rgb(126, 211, 232);
+}
+h1{
+    text-align: center;
+    color: rgba(118, 21, 61, 0.653);
+}
