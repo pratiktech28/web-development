@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Prateek sharma - Bookmarks-2</title>
+</head>
+<body>
+    <h1>This is my second web page --#forms and input tags,</h1>
+    <form action="post">
+        <div>
+            <input type="text" id="username" name="name" placeholder="Enter your name">
+            <label for="username">enter your username</label>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">enter your gender</label>
+        </div>
+        <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">enter your gender</label>
+        </div>
+    </form>
+    <p>---this is my second web page --#forms and input, labels, textareas</p>
+    <label for="comment">Enter your comment here</label>
+    <br>
+    <textarea id="comment" name="message" rows="10" cols="30" placeholder="Enter your comment here"></textarea>
+    <div>
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Prateek</td>
+                <td>Sharma</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>Sharma</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Karan</td>
+                <td>Sharma</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <list>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ol>
+        </list>
+        <div>
+            <ul>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>Php</li>
+            </ul>
+        </div>
+        <form action="post">
+            <div>
+                <input type="text" id="fav programming language" name="fav programming language"
+                    value="Enter your fav programming language">
+                <label for="fav programming language">Fav Programming Language</label>
+            </div>
+            <div>
+                <label for="programming language">Click the button to know your programming language like -- C++, C#,
+                    Java, Php</label>
+                <input type="text" id="programming language" value="Click Me!">
+            </div>
+        </form>
+        <div>
+            <p><a target="_blank" href="https://github.com">click here to link to my GitHub profile</a></p>
+            <p><a target="_blank" href="https://linkedin.com/in/prateeksharma2807">click here to link to my linkedin
+                    profile</a></p>
+            <p><a target="_blank" href="https://www.google.com">click here to link to google</a></p>
+            <p><a target="_blank" href="https://www.youtube.com">click here to link to youtube</a></p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil hic illum a vero sapiente atque
+                tenetur
+                tempora ex nobis consectetur vitae cumque soluta reprehenderit excepturi, culpa, doloremque iste
+                voluptatibus labore veniam minus et assumenda? Molestiae, necessitatibus fugit minus eaque voluptatem
+                earum
+                magnam, corporis numquam magni officiis quos quidem recusandae quae voluptatibus, harum sint laboriosam
+                architecto?</p>
+        </div>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea esse rerum eaque perferendis similique,
+                quas, vel consectetur qui dicta cumque repellat maiores impedit illum vitae perspiciatis expedita
+                reprehenderit voluptatum? Accusantium, quibusdam sit. Culpa dignissimos animi eius accusantium
+                architecto impedit ratione sapiente! Dolor mollitia odit earum dolore autem at unde fugiat quibusdam
+                rerum, voluptatum ea, eaque, ut ex veritatis officiis accusantium suscipit facere ipsam tenetur itaque
+                maxime reiciendis est ad distinctio? Ullam tempora assumenda repellendus exercitationem sit beatae
+                consectetur possimus qui. Laborum, nobis nesciunt eum quidem iure blanditiis magni culpa?</p>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consequatur inventore veniam? Nisi odit
+            amet minima facilis laborum vel vitae? Possimus, fugit. Iste, sint laborum adipisci eaque deleniti
+            architecto unde officiis, est quae repellat eligendi, placeat dolor quos totam suscipit! Velit quaerat illum
+            odit ad molestias corrupti iste vero eveniet officia, deserunt assumenda soluta hic alias amet.
+            Reprehenderit architecto necessitatibus deleniti quasi possimus? Ea quia veniam repudiandae quo, placeat eum
+            velit, dignissimos, dolorem hic quisquam repellendus et doloremque praesentium quos. Unde exercitationem
+            vitae sed? Id assumenda commodi fuga tenetur nesciunt magni, consequuntur minima, eius rerum ipsum
+            reiciendis illum, iste modi molestias tempora eos!</p>
+
+        <span>Hey ,I am a inline element and i have necessary width space</span>
+</body>
+
+</html>
