@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks 3--Prateek Sharma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bookmarks 3--Prateek Sharma</h1>
+        <nav>
+            <ul>
+                <li><a href="https://linkedin.com/in/prateeksharma2807">This is my LinkedIn profile</a></li>
+                <li><a href="https://google.com">google workspace</a></li>
+                <li><a href="https://github.com/pratiktech28">This is my github</a></li>
+                <li><a href="https://wikipedia.com">wikipedia workspace</a></li>
+                <li><a href="https://youtube.com">youtube</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>We are given the opportunity to learn full stack development. It can help us make changes in the world.</p>
+            <p>I'm passionate about coding and always eager to learn new technologies.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Prateek Sharma AIML All rights reserved</p>
+    </footer>
+    <main>
+        <section>
+            <h2>My Hobbies</h2>
+            <ol>
+                <li>Reading tech blogs</li>
+                <li>Coding small projects</li>
+                <li>Exploring new programming languages</li>
+            </ol>
+        </section>
+
+    </main>
+    <footer>
+        <p>&reg; 2025 Prateek Sharma AIML All rights registered and i'm from chameli devi group of institutions, indore</p>
+    </footer>
+    <input type="button"  id = "Username" value="Click Me!" onclick="alert('Hello, welcome to my third web page!')">
+    <label for="Username">Click the button to see a web page.</label>
+    <span style="color:rgb(39, 39, 137); font-size:20px;">This is my third web page.</span>
+    <main>
+        <section>
+            <h2>Contact us</h2>
+            <ul>
+                <li><a href="https://github.com/pratiktech28">github link</a></li>
+                <li><a href="https://linkedin.com/in/prateeksharma2807">linkedin link</a></li>
+                <li><a href="https://twitter.com/ipratik_sharma">twitter link</a></li>
+            </ul>
+        </section>
+    <footer>
+        <div>
+            <img src="images/image.JPEG" alt="My Image" width="200" height="150">
+            <input type="image" src="images/image.JPEG" alt="My Image" width="200" height="150">
+            <label for="image">This is tiger image</label>
+        </div>
+    </footer>
+</body>
+</html>
