@@ -1,0 +1,3 @@
+alert('Hello, welcome to my third web page!');
+console.log('This is a message in the console for debugging purposes.');
+document.write('This text is written directly to the web page.');
