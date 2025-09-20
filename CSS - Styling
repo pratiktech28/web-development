@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Styling</title>
+    <style>
+        h1 {
+            color: #FF5733;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-weight: 500;
+            font-size: 36px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #333333;
+            margin: 30px;
+            border: 3px solid #7e33ff;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #e9dede;
+            font-weight: 700;
+            text-align: left;
+            color: hsl(70, 100%, 14%);
+            line-height: 1.6;
+        }
+
+        .material-symbols-outlined {
+            color: aqua;
+
+        }
+
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            font-family: 'italics', sans-serif;
+            font-style: bold;
+            font-size: 18px;
+            color: orangered;
+            text-align: center;
+            background-color: rgb(161, 227, 251);
+        }
+
+        th,
+        td {
+            border: 2px solid #dc6f6f;
+            padding: 12px;
+            margin: 10px;
+            font-weight: 300;
+            font-size: 20px;
+            color: #333;
+        }
+
+        em {
+            color: red;
+            padding: 10px;
+            margin: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #material-symbols-outlined {
+            font-size: 24px;
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h3 {
+            color: #f5210d;
+            padding: 30px;
+            font-size: xx-large;
+            margin-top: 30px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+
+
+        }
+
+        /* pseudo code */
+        a:visited {
+            margin: 30px;
+            color: red;
+            padding: 20px;
+            background-color: green;
+
+        }
+
+        a:active {
+            color: #a1cc34;
+            margin-top: 45px;
+            background-color: orange;
+        }
+
+        a:link {
+            color: #7e33ff;
+            margin: 30px;
+            background-color: rgb(210, 230, 233);
+        }
+
+        a:hover {
+            color: aqua;
+            margin: 45px;
+            background-color: rgb(130, 215, 113)
+        }
+
+        </head>
+    </style>
+    <span class="material-symbols-outlined">this is the font style</span>
+    <span id="material-symbols-outlined">
+        <Main>My font style bookmarks</Main>
+    </span>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+    </style>
+</head>
+
+<body>
+    <h1>The styling and designing fonts </h1>
+    <p>I'm grateful for that about styling and designing.but I also think it's important to keep learning and improving.
+    </p>
+    <h2>The styling and designing and fonts then colors </h2>
+    <ol>
+        <li>styling</li>
+        <li>designing</li>
+        <li>fonts</li>
+        <li>colors</li>
+        <li>background</li>
+    </ol>
+    <table border="15px" cellspacing="10px" cellpadding="10px">
+        <tr>
+            <th>styling</th>
+            <th>designing</th>
+            <th>fonts</th>
+            <th>colors</th>
+            <th>background</th>
+        </tr>
+        <tr>
+            <td>styling</td>
+            <td>designing</td>
+            <td>fonts</td>
+            <td>colors</td>
+            <td>background</td>
+        </tr>
+        <tr>
+            <td>styling</td>
+            <td>designing</td>
+            <td>fonts</td>
+            <td>colors</td>
+            <td>background</td>
+        </tr>
+        <main><em>this is the font style</em></main>
+    </table>
+    <article>
+        <p>This is a paragraph inside an article element. Articles are used to group related content together.</p>
+    </article>
+    <Header>
+        <main>
+            <h3>Contact us:</h3>
+            <ol>
+                <li><a href="https://www.google.com">Go to google</a></li>
+                <li><a href="https://github.com/pratiktech28">Go to my github profile</a></li>
+                <li><a href="https://www.youtube.com">Go to youtube</a></li>
+                <li><a href="https://www.wikipedia.com">Go to wikipedia</a></li>
+                <li><a href="https://www.linkedin.com/in/prateeksharma2807">Go to my linkedin profile</a></li>
+            </ol>
+        </main>
+    </Header>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odit excepturi debitis nemo quod dignissimos
+        temporibus nulla autem possimus harum minima itaque voluptatibus quae provident earum aperiam recusandae ipsa
+        suscipit quidem illum quasi, ipsam ratione quo? Alias, ab sequi, magnam perspiciatis impedit ipsa ut ipsum
+        dolorum sapiente inventore aut harum aliquam quod sint nesciunt, saepe at. Nulla quas nihil amet iusto error. Ad
+        mollitia aliquid sint quaerat veniam. Illum recusandae distinctio nihil eius, accusamus sunt fugiat fuga
+        impedit, provident dolorum accusantium esse sequi nobis praesentium corrupti obcaecati, est sint ex. Doloremque
+        asperiores quam doloribus, consequuntur eveniet culpa tenetur, deserunt nulla assumenda est corrupti nihil enim
+        nesciunt veritatis unde facere dolore totam, distinctio voluptatibus neque harum! Consequatur dolore officiis
+        harum sequi, natus eius, adipisci, at aperiam laborum sapiente amet alias soluta cupiditate itaque reiciendis
+        similique? Assumenda, illo saepe? Debitis est, velit porro iusto provident sapiente necessitatibus, tempore,
+        quaerat similique tenetur nobis odio eligendi sunt alias? Distinctio quo odit reprehenderit pariatur nisi
+        laboriosam? Sequi incidunt eaque libero reiciendis nisi. Ex esse beatae quia tenetur fugit harum eligendi illo
+        architecto, corporis sapiente delectus dolorem atque unde deserunt quidem minima? Totam doloribus veniam commodi
+        animi impedit excepturi magni ab. Laboriosam quis iusto sapiente assumenda ducimus. Autem, repellendus numquam
+        sunt nostrum similique ipsam veniam nesciunt officia optio fuga deserunt illum non sit! Mollitia voluptatibus,
+        facilis sequi iusto magnam quis est suscipit, numquam quia aliquid pariatur temporibus! Optio provident, placeat
+        minus doloremque veritatis magni facilis! Earum dolor quis similique tenetur id debitis molestias iusto
+        sapiente, temporibus enim cumque vero nihil, nobis officia saepe beatae. Pariatur perferendis ut cum atque
+        molestiae eos impedit. Repudiandae corrupti ex aut optio quaerat quae rem veritatis. Reiciendis voluptatem quas
+        animi deserunt provident enim rem, tempora esse tempore ab debitis dolorum recusandae modi, corporis possimus
+        omnis architecto velit quae! Quas harum accusamus vitae quos illo nisi quibusdam at doloribus voluptates sunt
+        commodi nemo ullam laudantium voluptate dolorem repudiandae officiis minima, quod ad? Nobis earum voluptatem
+        vero dolore eius labore assumenda rem tenetur, nostrum laudantium nihil. Quae odit numquam reprehenderit, dolor
+        perspiciatis similique, dignissimos totam enim officia necessitatibus ut tenetur sint. Vel omnis nulla, tenetur
+        debitis veniam mollitia maiores, dolorum adipisci quia eveniet tempore consectetur accusantium aliquid dicta
+        asperiores quam provident. Doloribus, modi iure aliquid, sapiente nobis voluptatem, placeat voluptatibus beatae
+        dolor sequi suscipit! Cumque iure doloremque ea mollitia! Nam obcaecati recusandae id necessitatibus optio
+        facere? Possimus doloribus sint animi et praesentium maiores nam, laborum eius, beatae voluptate nisi facere
+        officiis iure dolorem fuga! Dolorem ut amet excepturi ipsam odio, nostrum cumque similique, hic in officiis
+        quaerat tempore saepe ratione soluta quia obcaecati tempora laborum vero perspiciatis veniam voluptatum corporis
+        corrupti. Recusandae modi nam voluptatum, esse rem, accusantium possimus tenetur maiores asperiores ducimus
+        molestiae? Velit perferendis atque, debitis sint vitae tempora delectus culpa, dolores aliquid, officia
+        temporibus? Voluptatibus, illo, nostrum ipsa aperiam optio voluptatem eligendi iste fuga esse accusamus porro
+        perferendis repudiandae exercitationem asperiores? Reiciendis quidem distinctio provident placeat veritatis,
+        suscipit laboriosam quibusdam, totam labore ipsam, doloremque magnam numquam commodi explicabo dolorem maiores
+        delectus optio quod ipsa eligendi vero tempora voluptatibus amet possimus. Provident rerum sit consequuntur
+        optio ad nisi velit, quos temporibus. Libero iste ullam similique dolores earum fugiat sit saepe, consequuntur
+        ut commodi perspiciatis provident eius deserunt doloremque explicabo maiores. Perspiciatis, nesciunt? Officia,
+        sint vel. Eaque impedit eum necessitatibus doloribus, mollitia architecto aut? Nam impedit pariatur cupiditate
+        praesentium ullam repudiandae officiis repellat voluptate iste similique expedita commodi, minus tenetur quasi
+        vel possimus mollitia. Maxime unde ipsum non ratione perferendis nam totam accusantium. Atque, fugiat quas quo,
+        obcaecati quia commodi non ad aliquam accusamus excepturi nam veniam qui aspernatur alias saepe natus
+        necessitatibus. Eos, enim assumenda. Sequi sit quasi quibusdam fugit, eligendi velit odio incidunt libero ipsum
+        nobis deleniti eaque labore alias facere, nisi minus quas repellendus adipisci magnam. Nihil eveniet natus
+        molestiae? Rerum, sit illum provident alias rem ratione ipsum sed nostrum doloribus tempore. Dignissimos labore
+        harum nemo mollitia esse sint tempora eaque placeat eveniet cupiditate ratione corporis facilis, id maiores
+        nesciunt odio veniam assumenda. Aperiam illum architecto ab quam corporis ad consequuntur maiores qui corrupti
+        at suscipit eius fugiat temporibus eos, saepe dolores! In aliquid minus aspernatur accusantium sequi, ullam nam
+        eum illo voluptatum architecto esse ipsam nihil omnis quibusdam, voluptate hic cum quasi asperiores, soluta
+        eveniet molestiae itaque? Magnam, placeat reprehenderit incidunt libero dolores repellat ducimus, ex aspernatur
+        omnis repellendus accusamus labore maiores dicta distinctio rem? Similique, consequatur enim! Dolores, pariatur
+        sunt a officia consequuntur voluptatem. Consequuntur qui, nisi eveniet corporis enim eos nam minus dolorem
+        assumenda sed ex ea optio doloremque maiores est aliquam quis harum quas repellat. Possimus quae consequuntur
+        debitis amet exercitationem, doloremque facere libero. Laudantium quia aliquam modi minus earum architecto
+        inventore. Architecto autem accusantium quo non sequi voluptas ab porro aliquam quos alias beatae quasi eveniet
+        itaque quas eos laborum ad dignissimos asperiores, incidunt fugiat esse! Accusamus, omnis vitae? At quae
+        corrupti accusantium amet repudiandae deleniti aperiam voluptates, fugiat rerum voluptas ut asperiores rem
+        deserunt recusandae id! Culpa sint, ea aut, nisi molestiae ratione officia in magni incidunt aliquam eum quia
+        dolorum ut. Quis doloremque optio voluptatum ipsam aliquam veritatis vitae at. Iure quisquam modi doloremque
+        quae impedit delectus ad repellat, est doloribus a reprehenderit soluta accusamus ullam numquam nemo libero illo
+        quis itaque possimus amet beatae consequatur. Eius similique accusamus quod earum a necessitatibus officiis modi
+        magni, minus, qui voluptatum natus sapiente asperiores doloremque consequatur voluptatem suscipit. Ratione ut
+        tempore architecto dignissimos, minus aperiam reiciendis fugit ipsum! Vero perspiciatis, obcaecati nobis quas
+        facilis odit maxime debitis nisi quam architecto? Et velit aut qui reiciendis, ipsam animi assumenda accusantium
+        culpa a suscipit blanditiis nemo voluptates nam dolore molestiae doloribus beatae mollitia omnis deleniti
+        laborum, magni tempore? Reiciendis corrupti, ipsam odio omnis, dicta ab in error rerum quidem vitae cupiditate
+        deleniti officia exercitationem inventore vero id. Recusandae, officiis iusto! Ratione ad recusandae suscipit
+        nobis vitae!
+    </p>
+
+</body>
+
+</html>
