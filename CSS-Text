@@ -1,0 +1,94 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box with Shadow and Text&list test</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            padding: 45px;
+            margin: 20px;
+            width: 200px;
+            box-shadow: 25px 25px 50px 30px rgba(182, 74, 74, 0.5);
+            overflow: auto;
+            font-style: oblique;
+            font-weight: bold;
+            background-color: rgb(171, 226, 228);
+            text-align: center;
+        }
+        .ul nav li {
+            display:list-item;
+            list-style-type: disc;
+            color: blue;
+            background-color: aqua;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="box">I am a box</div>
+   <div><p class="Textline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas sequi exercitationem
+        fugiat animi non, neque nam, dolorum at eaque placeat quod laudantium assumenda cupiditate ducimus magnam
+        expedita fugit asperiores! Animi culpa minus obcaecati non fuga rerum ut assumenda omnis, reiciendis sapiente
+        similique dolorem eveniet libero quo aperiam illo quidem alias nesciunt placeat enim nobis dolor. Voluptatibus
+        architecto ipsam nesciunt quibusdam nobis quod exercitationem iusto unde excepturi facilis in obcaecati eos
+        fugit deserunt fuga, molestias saepe beatae doloribus veritatis laudantium dignissimos? Praesentium, quaerat et
+        sit harum temporibus, dolorum alias animi explicabo eveniet qui eos repellat laudantium enim? Reprehenderit
+        illum quisquam, sunt veniam explicabo aut ducimus omnis! Adipisci est debitis praesentium ad in eligendi nisi
+        libero! Assumenda odit voluptate iure cum ipsam id inventore perspiciatis at blanditiis itaque, perferendis hic
+        soluta natus autem. Error voluptate quidem dolore laudantium minima laborum veritatis ipsa, fugiat recusandae
+        itaque labore corporis harum molestias nam et. Debitis fugiat dolor facilis blanditiis quidem perferendis
+        dolores! Autem totam, facilis maxime minus quas quasi cumque tempore enim eligendi nostrum. Voluptatem facere
+        eos, aliquid consequatur nesciunt cum blanditiis? Ducimus dignissimos quibusdam neque vitae odio ex unde quae
+        veritatis sint maiores ea eligendi adipisci rem fugit nulla perspiciatis, mollitia dolorum repudiandae voluptas.
+        Quibusdam itaque minima, nihil ipsam harum corrupti. Veniam ratione necessitatibus, sunt fugit corporis quo
+        voluptas enim consequuntur error in? Architecto sunt ullam expedita tenetur a quae unde sed, aut dolores! Id ab
+        et sint culpa suscipit. Libero voluptate esse quibusdam modi quaerat, neque officia in corporis qui magnam error
+        sint saepe et dolores debitis voluptas commodi dignissimos obcaecati inventore soluta odit eveniet quo
+        laudantium eius! Nulla enim in asperiores, facere vitae libero, fugiat doloribus molestias quidem voluptas
+        aperiam facilis est autem eaque quaerat nam. Voluptatibus rerum eum suscipit quasi aliquid, inventore illum!
+        Molestiae neque nihil odit quod deleniti obcaecati? Maxime cum, laboriosam cupiditate amet doloribus corrupti
+        deserunt corporis ducimus error numquam distinctio blanditiis, nulla accusantium pariatur, officiis non?
+        Aliquid, dolorum rem eligendi quia nesciunt iure asperiores illo animi culpa. Nemo veniam dignissimos quos
+        explicabo fugiat molestias sunt aperiam repudiandae inventore!</p></div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>USA</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>Canada</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>Bob Smith</td>
+                <td>UK</td>
+                <td>40</td>
+            </tr>
+        </table>
+        <div>
+        <ul>
+            <nav>
+            <li>Electronics</li>
+            <li>Vegetables</li>
+            <li>fruits</li>
+            <li>Accesories</li>
+            <li>Programing</li>
+            <li>Web-dev</li>
+            </nav>
+        </ul>
+        </div>
+</body>
+
+</html>
