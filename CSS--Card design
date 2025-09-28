@@ -1,0 +1,93 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card -design</title>
+    <link rel="image" href="img.AVIF">
+    <style>
+      body {
+        background-color: aliceblue;
+        padding: 56px;
+        margin-bottom: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: centre;
+        border-radius: 56px;
+
+        
+      }
+      .card {
+        width: 200px;
+        height:535px;
+        border-radius:15px;
+        width: 334px;
+        margin: 20px;
+        border: 3px solid blue;
+        background-color: rgb(212, 220, 219);
+
+
+      }  
+      .image {
+        padding: 5px;
+        border: 0cap;
+      }.capsules {
+       
+        padding:6px;
+      
+      }
+      .capsules span {
+        border:2px solid black;
+        padding: 4px 4px 4px 6px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+        color: rgba(207, 43, 43, 0.915);
+        font-weight: bold;
+        background-color: #88e4d9;
+      }
+      .content {
+        padding: 15px;
+        margin: 10px;
+      ;
+      }
+      .content h1 {
+        font-size:35px;
+        margin-right: 86px;
+        padding: 23px;
+        color: rgb(15, 1, 1);
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        
+
+      }
+      p {
+        font-size: 15px;
+        color: rgb(186, 35, 35);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+
+
+      }
+      .image {
+        padding: 85px;
+        border: 3px solid black;
+      }
+      
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Card--Designed,Nature and beauty</h1>
+    <div class="card">
+        <div class="image">
+            <img src="https://unsplash.com/photos/a-man-standing-on-the-edge-of-a-lake-surrounded-by-trees-x_W0bGjB3Pg" alt="nature's image">
+        </div>
+        <div class="content">
+          
+          <h1>Prateek</h1>
+          <div class="capsules">
+            <span>Nature</span>
+            <span>Beauty</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis illum consectetur ad nobis. Nihil fugiat facilis eos dolore saepe quam quisquam minus distinctio quas.</p>
+            
+</body>
+</html>
