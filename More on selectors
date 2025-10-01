@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-More on selectors</title>
+  <style>
+    .boxes {
+      border: 2px solid black;
+      color: rgb(7, 97, 67);
+    }
+    .box:last-child {
+      background-color: #f48181;
+    }
+    .box::first-letter {
+      font-size: 45px;
+      margin-top: 45px;
+    }
+    ::selection {
+      color: rgb(215, 20, 30);
+      
+    }
+    button {
+      background-color: #2ecece;
+      justify-content: center;
+      font-family: 'Times New Roman', Times, serif;
+      cursor:pointer;
+    }
+    input {
+      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+       cursor:pointer;
+    }
+    .signin {
+      padding: 25px;
+      margin: 25px;
+    }
+   
+
+    
+
+  </style>
+  <div class="boxes">
+    <div class="box">Hey I'm a box</div>
+    <div class="box">hey this is second box</div>
+    <div class="box">Hey this is third box</div>
+  </div>
+  <h1>Amazon.in</h1>
+  <input type="text" placeholder="Enter yours details">
+  <div>
+  <button>log in </button>
+  <button>sign in</button>
+  <div>
+  <label class="signin">Your account has been already created.</label>
+  </div>
+  
+</body>
+</html>
