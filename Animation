@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Animation</title>
+    <style>
+        .container {
+            width: 50vw;
+            height: 60vh;
+            background-color: blueviolet;
+
+            .box {
+                width: 20vw;
+                height: 25vh;
+                background-color: rgb(157, 232, 232);
+                /*  animation: name duration timing-function delay iteration-count direction fill-mode;*/
+                /*animation: prateek2 1s ease-in 2s 5 reverse;*/
+                animation-name:prateek2;
+                animation-iteration-count: 5;
+                animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+                animation-duration: 2s;
+                animation-delay: 2s;
+                animation-direction: reverse;
+                animation-play-state: running;
+
+            }
+        }
+
+        @keyframes prateek2 {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: rgb(48, 216, 239);
+                transform: translate(100%)
+            }
+        }
+        .button {
+            background-color: rgb(246, 121, 121);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+            <button class="button">Animation</button>
+            
+           <!----<textarea>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates alias et, quam enim consequuntur culpa sunt nobis provident odio numquam mollitia cupiditate error!</textarea>-->
+
+
+</body>
+
+</html>
