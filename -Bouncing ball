@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object-fit & position</title>
+</head>
+<style>
+    .box {
+        width: 20vw;
+        height: 20vh;
+        background-color: blue;
+        border: 2px solid black;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: prateekX 2s linear infinite,
+            prateekY 1s ease-out infinite alternate;
+
+
+    }
+
+    .container {
+        position: relative;
+        width: 100vw;
+        height: 70vh;
+        border: 2px solid black;
+        background-color: bisque;
+
+    }
+
+    @keyframes prateekX {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 100%;
+
+        }
+    }
+
+    @keyframes prateekY {
+        from {
+            bottom: 0;
+        }
+
+        to {
+            bottom: 100%;
+
+        }
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+        </div>
+
+
+
+</body>
+
+</html>
