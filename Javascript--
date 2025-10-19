@@ -1,0 +1,38 @@
+document.title = "webpage-2"
+document.body.style.backgroundColor = "aquamarine"
+console.log("Helloworld")
+//Permitive datatypes🙌
+let a = "prateek"
+let b = 2.36;
+let c = undefined;
+const d = true;
+let e = null;
+let f = Symbol;
+console.log(a,b,c,d,e,f);
+console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f);
+//objects
+ let o = {
+    "name":"prateek",
+    "branch":"AIML",
+    "college":"CDGI indore"
+
+ }
+console.log(o);
+o.percentage = "80.4%";
+console.log(o);
+o.lunch = "12:00PM"
+console.log(o);
+o.technology = "Javascript"
+console.log(o);
+o.symbol = "%"
+console.log(o);
+/*alert("Hey tomorrow is our's favourite fastival: 'Diwali' ")
+var isTrue = promt("Enter your valid number will integer type :")
+var isTrue = confirm("This is number" +a);
+if(isTrue){
+   console.log("Hurry up! Otherwise I'm gone");
+}
+else{
+   console.log("I'm not gone!");
+
+}*/
