@@ -1,0 +1,31 @@
+//Ladder-1
+age = 30;
+grace = 15;
+if((age-grace)>18){
+     console.log("Are you eligible for this!");
+}
+else if(age==28){
+    console.log("You are drive!");
+}
+else if(age==30){
+    console.log("You are also drive!");
+}
+
+else{
+    console.log("you aren't drive");
+}
+//Ladder-2
+marks = 95;
+if(marks>98){
+    console.log("You can admitted!");
+}
+else if(marks==95){
+    console.log("You can also admitted!");
+}
+else{
+    console.log("you can't admitted!");
+}
+/* let a = 5;
+let b = 9;
+let c = a > b ? (a - b) : (b - a); //ternary operator
+ */
