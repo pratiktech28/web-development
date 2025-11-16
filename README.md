@@ -28,34 +28,6 @@
 
 ---
 
-## ✨ Features
-
-✅ Responsive Design  
-✅ Clean UI Components  
-✅ Modular Code Structure  
-✅ SEO-Friendly Markup  
-✅ Beginner-Friendly Projects
-
----
-Bilkul bhai! Tere GitHub repo ke liye ek box-style, visually attractive README bana diya hai — emojis, badges, and section boxes ke saath taaki recruiter ya visitor ko ekdum professional aur engaging lage. Yeh tu directly README.md file mein daal sakta hai:
-
-<h1 align="center">🌐 Web Development Bootcamp 🚀</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5" />
-  <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3" />
-  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript" />
-</p>
-
----
-
-## 📦 About This Repository
-
-> This repo is a complete beginner-to-advanced journey through modern web development.  
-> Learn how to build responsive, interactive websites using HTML, CSS, and JavaScript.
-
----
-
 ## 🧰 Tech Stack
 
 | 💻 Frontend | ⚙️ Tools |
@@ -99,8 +71,3 @@ For major changes, please open an issue first to discuss what you'd like to chan
 - 📧 <a href="mailto:pratiktech28@outlook.com" target="_blank">Outlook</a>  
 - 📁 <a href="https://www.kaggle.com/pratiktech28" target="_blank">Kaggle</a>
 
-
-
-
-
-## 📁 Folder Structure
