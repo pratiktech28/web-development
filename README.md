@@ -28,16 +28,6 @@
 
 ---
 
-## 🧰 Tech Stack
-
-| 💻 Frontend | ⚙️ Tools |
-|------------|----------|
-| HTML5      | VS Code |
-| CSS3       | Git & GitHub |
-| JavaScript | Chrome DevTools |
-
----
-
 ## ✨ Features
 
 ✅ Responsive Design  
