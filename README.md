@@ -53,7 +53,7 @@ For major changes, please open an issue first to discuss what you'd like to chan
 
 ## 🙋‍♂️ Connect With Me
 
-- 💼 <a href="https://github.com/pratiktech28/Portfolio-.git" target="_blank">Portfolio</a>  
+- 💼 <a href="https://prateek-sharma-ai-ml-tir3tk9.gamma.site/" target="_blank">Portfolio</a>  
 - 📧 <a href="mailto:pratiktech28@gmail.com" target="_blank">E-mail</a>  
 - 🐦 <a href="https://twitter.com/ipratik_sharma" target="_blank">Twitter</a>  
 - 💬 <a href="https://linkedin.com/in/prateeksharma2807" target="_blank">LinkedIn</a>  
