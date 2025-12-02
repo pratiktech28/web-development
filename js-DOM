@@ -1,0 +1,24 @@
+console.log("Helloworld");
+let boxes = document.getElementsByClassName("box");
+console.log(boxes);
+boxes[3].style.backgroundColor = "yellow"
+boxes[4].style.backgroundColor = "red"
+boxes[2].style.backgroundColor = "green"
+boxes[1].style.backgroundColor = "blue"
+boxes[0].style.backgroundColor = "aqua"
+
+;
+document.getElementById("redbox").style.backgroundColor = "yellow";
+document.getElementById("redbox").innerHTML = "This is My Child Box";
+document.querySelectorAll(".box").forEach(e => {
+    console.log(e)
+    e.style.backgroundColor = "yellow"; e.style.border = "2px solid red";e.style.borderRadius = "10px"
+})
+
+
+// // Important DOM properties
+// document.body.firstElementChild
+// document.body.firstElementChild.childNodes
+
+// document.body.firstElementChild.children[3].nextElementSibling
+// document.body.firstElementChild.children[3].previousElementSibling
